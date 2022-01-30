@@ -5,8 +5,9 @@
 ## 安装
 
 ```shell
-> pip install seldom==2.4.2
-> pip install poium==1.0.4
+> git clone https://github.com/SeldomQA/seldom-web-testing
+> cd seldom-web-testing
+> pip install -r requirements.txt
 ```
 
 ## 运行
