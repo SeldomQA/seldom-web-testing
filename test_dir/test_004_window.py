@@ -2,6 +2,9 @@ import seldom
 
 
 class WindowTest(seldom.TestCase):
+    """
+    多窗口
+    """
 
     def test_window(self):
         """

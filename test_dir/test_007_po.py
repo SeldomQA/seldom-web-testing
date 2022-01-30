@@ -8,13 +8,15 @@ https://github.com/SeldomQA/poium
 """
 import seldom
 from seldom import Seldom
-from seldom.utils import file
-file.add_to_path(file.dir_dir)
+# from seldom.utils import file
+# file.add_to_path(file.dir_dir)
 from pages.po_page import BaiduPage
 
 
 class BaiduTest(seldom.TestCase):
-    """Baidu search test case"""
+    """
+    page object 设计模式
+    """
 
     def test_case(self):
         """

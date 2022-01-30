@@ -4,7 +4,7 @@ from seldom import data
 
 class DDTTest(seldom.TestCase):
     """
-    数据驱动测试
+    数据驱动
     """
 
     @data([

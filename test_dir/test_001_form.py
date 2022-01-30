@@ -3,7 +3,7 @@ import seldom
 
 class FormTest(seldom.TestCase):
     """
-    表单测试
+    表单
     """
 
     def test_from(self):

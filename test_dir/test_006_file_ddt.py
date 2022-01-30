@@ -3,7 +3,9 @@ from seldom import file_data
 
 
 class FileDataTest(seldom.TestCase):
-    """form input test case"""
+    """
+    文件数据驱动
+    """
 
     def start(self):
         self.test_url = "https://www.w3school.com.cn/tiy/t.asp?f=eg_html_form_submit"

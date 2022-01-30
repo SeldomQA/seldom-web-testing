@@ -2,6 +2,9 @@ import seldom
 
 
 class LinkTest(seldom.TestCase):
+    """
+    链接
+    """
 
     def test_link(self):
         """

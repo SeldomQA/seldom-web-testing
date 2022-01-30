@@ -2,6 +2,9 @@ import seldom
 
 
 class IFrameTest(seldom.TestCase):
+    """
+    嵌套表单
+    """
 
     def test_iframe(self):
         """
