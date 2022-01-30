@@ -1,9 +1,11 @@
 # seldom-web-testing
 
+> seldom Web 自动化测试项目.
+
 ## 安装
 
 ```shell
-> pip install seldom==2.3.3
+> pip install seldom==2.4.2
 > pip install poium==1.0.4
 ```
 
@@ -15,15 +17,18 @@
 mypro/
 ├── pages/
 │   ├── xxx_page.py
-├── test_data/
-│   ├── data.json
 ├── reports/
+├── test_data/
+│   ├── xx_data.json
+├── test_dir/
+│   ├── test_xxx_xxx.py
 └── run.py
 ```
 
 * `pages/` page层封装目录。
-* `test_dir/` 测试用例目录。
 * `reports/` 测试报告目录。
+* `test_data/` 测试数据目录。
+* `test_dir/` 测试用例目录。
 * `run.py` 运行测试用例主文件。
 
 运行用例：
@@ -35,7 +40,7 @@ mypro/
    ________  / /___/ /___  ____ ____
   / ___/ _ \/ / __  / __ \/ __ ` ___/
  (__  )  __/ / /_/ / /_/ / / / / / /
-/____/\___/_/\__,_/\____/_/ /_/ /_/  v2.3.3
+/____/\___/_/\__,_/\____/_/ /_/ /_/  v2.4.2
 -----------------------------------------
                              @itest.info
 
@@ -47,19 +52,10 @@ mypro/
 [WDM] - Driver [C:\Users\fnngj\.wdm\drivers\chromedriver\win32\96.0.4664.35\chromedriver.exe] found in cache
 
 DevTools listening on ws://127.0.0.1:61378/devtools/browser/46d8e0b7-1a8f-4444-9089-060008cee591
-2021-11-22 23:35:50 [INFO] 📖 https://sahitest.com/demo/iframesTest.htm
-2021-11-22 23:35:51,197  [INFO] ✅ Find element: id=checkRecord
-2021-11-22 23:35:52,146  [INFO] clear element: input Text
-2021-11-22 23:35:52,181  [INFO] ✅ Find element: id=checkRecord
-2021-11-22 23:35:53,122  [INFO] 🖋 input element: input Text
-2021-11-22 23:35:53,199  [INFO] ✅ Find element: css selector=input[value='Click me']
-2021-11-22 23:35:54,143  [INFO] 🖱 click element: input button
-2021-11-22 23:35:54 [INFO] 📖 https://sahitest.com/demo/
-2021-11-22 23:35:54,398  [INFO] ✅ Find element: link text=Link Test
-2021-11-22 23:35:55,364  [INFO] 🖱 click element: Link Test
-2021-11-22 23:35:56 [PRINT] generated html file: file:///D:\github\seldom-web-testing\reports\2021_11_22_23_35_48_result.html
-2021-11-22 23:35:56 [PRINT] generated log file: file:///D:\github\seldom-web-testing\reports\2021_11_22_23_35_48_log.log
-.1.2
+...
+2022-01-30 21:50:18 [PRINT] generated html file: file:////Users/tech/github/seldom-web-testing/reports/2022_01_30_21_46_25_result.html
+2022-01-30 21:50:18 [PRINT] generated log file: file:////Users/tech/github/seldom-web-testing/reports/2022_01_30_21_46_25_log.log
+.1.2.3.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19.20%
 ```
 
 ## 测试报告
