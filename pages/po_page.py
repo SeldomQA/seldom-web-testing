@@ -1,8 +1,8 @@
 from poium import Page, Element
 
 
-class BaiduPage(Page):
+class BingPage(Page):
     """baidu page"""
-    search_input = Element(id_="kw")
-    search_button = Element(id_="su")
+    search_input = Element(id_="sb_form_q")
+    search_button = Element(id_="search_icon")
 

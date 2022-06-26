@@ -3,14 +3,14 @@ page object model
 Using the poium Library
 https://github.com/SeldomQA/poium
 ```
-> pip install poium=1.0.4
+> pip install poium=1.1.5
 ```
 """
 import seldom
 from seldom import Seldom
-# from seldom.utils import file
-# file.add_to_path(file.dir_dir)
-from pages.po_page import BaiduPage
+from seldom.utils import file
+file.add_to_path(file.dir_dir)
+from pages.po_page import BingPage
 
 
 class BaiduTest(seldom.TestCase):
@@ -22,11 +22,11 @@ class BaiduTest(seldom.TestCase):
         """
         A simple test
         """
-        page = BaiduPage(Seldom.driver)
-        page.open("https://www.baidu.com")
+        page = BingPage(Seldom.driver, print_log=True)
+        page.open("https://cn.bing.com/")
         page.search_input = "seldom"
         page.search_button.click()
-        self.assertTitle("seldom_百度搜索")
+        self.assertTitle("seldom - 搜索")
 
 
 if __name__ == '__main__':
