@@ -41,7 +41,7 @@ mypro/
    ________  / /___/ /___  ____ ____
   / ___/ _ \/ / __  / __ \/ __ ` ___/
  (__  )  __/ / /_/ / /_/ / / / / / /
-/____/\___/_/\__,_/\____/_/ /_/ /_/  v2.4.2
+/____/\___/_/\__,_/\____/_/ /_/ /_/  v2.10.2
 -----------------------------------------
                              @itest.info
 
@@ -54,9 +54,9 @@ mypro/
 
 DevTools listening on ws://127.0.0.1:61378/devtools/browser/46d8e0b7-1a8f-4444-9089-060008cee591
 ...
-2022-01-30 21:50:18 [PRINT] generated html file: file:////Users/tech/github/seldom-web-testing/reports/2022_01_30_21_46_25_result.html
-2022-01-30 21:50:18 [PRINT] generated log file: file:////Users/tech/github/seldom-web-testing/reports/2022_01_30_21_46_25_log.log
-.1.2.3.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19.20%
+Generating HTML reports...
+.202022-06-26 11:51:35 log.py | SUCCESS | generated html file: file:///D:\github\seldom-web-testing\reports\2022_06_26_11_49_34_result.html
+2022-06-26 11:51:35 log.py | SUCCESS | generated log file: file:///D:\github\seldom-web-testing\reports\seldom_log.log
 ```
 
 ## 测试报告
