@@ -12,7 +12,7 @@ class FormTest(seldom.TestCase):
         """
         self.open("https://sahitest.com/demo/formTest.htm")
         # 警告框
-        self.accept_alert()
+        self.alert.accept()
         # 输入框
         self.type(name="t1", text="input1")
         self.type(xpath="/html/body/form/table/tbody/tr[3]/td[2]/input", text="input2")
@@ -34,11 +34,11 @@ class FormTest(seldom.TestCase):
         self.sleep(2)
         # 下拉选择框
         self.select(name="s1", value="o2")
-        self.accept_alert()
+        self.alert.accept()
         self.select(name="s1", text="o3")
-        self.accept_alert()
+        self.alert.accept()
         self.select(name="s1", index=1)
-        self.accept_alert()
+        self.alert.accept()
 
 
 if __name__ == '__main__':
