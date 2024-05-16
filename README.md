@@ -34,6 +34,8 @@ mypro/
 
 运行用例：
 
+* `seldom` 命令，使用`confrun.py` 文件配置。
+
 ```shell
 # 指定测试目录
 > seldom --path test_dir
@@ -44,6 +46,25 @@ mypro/
 > seldom --mod test_dir.test_001_form.FormTest
 # 指定测试方法
 > seldom --mod test_dir.test_001_form.FormTest.test_from
+```
+
+* `seldom.main()` 方法
+
+```python
+# run.py
+import seldom
+
+
+if __name__ == '__main__':
+    seldom.main(
+        path="./test_dir",  # 运行目录
+        browser="gc", # 浏览器
+        rerun=3,  # 重跑次数
+    )
+```
+
+```shell
+> python run.py
 ```
 
 ## 测试报告
