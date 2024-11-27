@@ -12,11 +12,9 @@ class DDTTest(seldom.TestCase):
         ('case2', 'selenium'),
         ('case3', 'unittest'),
     ])
-    def test_baidu(self, _, search_key):
+    def test_bing(self, _, search_key):
         """
-         used parameterized test
-        :param _: case name
-        :param search_key: search keyword
+        data driver
         """
         self.open("https://cn.bing.com/")
         self.type(id_="sb_form_q", text=search_key, enter=True)
