@@ -5,7 +5,7 @@ class BingTest(seldom.TestCase):
     selector find element
     """
 
-    def test_bing_search_update(self):
+    def test_bing_search(self):
         """
         A simple test
         """
