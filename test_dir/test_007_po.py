@@ -21,7 +21,7 @@ class BingTest(seldom.TestCase):
         """
         A simple test
         """
-        page = BingPage(print_log=True)
+        page = BingPage()
         page.open("https://cn.bing.com/")
         page.search_input = "seldom"
         page.search_button.click()

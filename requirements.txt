@@ -1,2 +1,2 @@
-seldom==3.7.0
-poium==1.5.1
+seldom==3.11.0
+poium==1.6.3
