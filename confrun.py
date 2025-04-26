@@ -22,7 +22,7 @@ def browser():
     Web UI test:
     browser: gc(google chrome)/ff(firefox)/edge/ie/safari
     """
-    return "gc"
+    return "edge"
 
 
 def debug():
