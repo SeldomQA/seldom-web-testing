@@ -1,2 +1,4 @@
-seldom==3.11.0
+seldom==3.13.0
 poium==1.6.3
+autowing==0.6.1
+playwright==1.51.0
