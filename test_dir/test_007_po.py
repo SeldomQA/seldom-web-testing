@@ -8,7 +8,7 @@ https://github.com/SeldomQA/poium
 """
 import seldom
 from seldom.utils import file
-file.add_to_path(file.dir_dir)
+file.add_to_path(str(file.dir_dir))
 from pages.po_page import BingPage
 
 
@@ -23,7 +23,7 @@ class BingTest(seldom.TestCase):
         """
         page = BingPage()
         page.open("https://cn.bing.com/")
-        page.search_input = "seldom"
+        page.search_input.send_keys("seldom")
         page.search_button.click()
         self.assertInTitle("必应")
 
